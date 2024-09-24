@@ -1,4 +1,4 @@
-* {
+** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,8 @@ body {
 
     
 }
+
+
 
 header{
     position: fixed; 
@@ -42,9 +44,9 @@ header{
 }
 
 .navbar {
-    background-color: #21b156eb;
+    background-color: #f5f5f5;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     position: fixed; /* Torna a navbar fixa */
     width: 100%; /* Garante que a navbar ocupe toda a largura da tela */
   height: 140px;
@@ -84,7 +86,7 @@ header{
 }
 
 .menu a {
-    color: #FFFFFF;
+    color: #13940e;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 15px;
@@ -150,20 +152,28 @@ margin-top: 130px;
 position: relative;
 top: 170px;
 height: auto;
+width: 100%;
 }
 
 .segurança {
-  text-align: left;
- margin-top: 180px;
- padding: 50px;
- padding-left: 0%;
+    justify-content: center;
+  display: flex;
+  position: relative;
+
+
  height: auto;
+ width: 100%;
   }
+  .foto img, .segurança img, .quem-somos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem será redimensionada para cobrir toda a área */
+}
 .mapa {
     border-radius: 4px;
     border-color: #333;
-    height: 450px;
-    width: 430px;
+    height: 550px;
+    width: 500px;
     background-color: #098D09;
  
     justify-content: left;
@@ -217,7 +227,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2420px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -231,7 +240,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2500px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -246,7 +254,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2580px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -261,7 +268,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2660px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -276,7 +282,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2740px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -291,7 +296,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2820px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -306,7 +310,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2900px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -321,7 +324,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 2980px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -336,7 +338,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3060px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -351,7 +352,6 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3140px; /* Ajusta a posição para cima */
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -367,7 +367,7 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3220px; /* Ajusta a posição para cima */
+
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -382,7 +382,7 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3300px; /* Ajusta a posição para cima */
+
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -397,7 +397,7 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3380px; /* Ajusta a posição para cima */
+    
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -412,7 +412,7 @@ height: auto;
     justify-content: center;
     position: absolute; /* Permite o posicionamento personalizado */
     right: 50px; /* Ajusta a posição à direita */
-    top: 3470px; /* Ajusta a posição para cima */
+
     background-color: #f9f8f8;
     border: 2px solid #ddd;
     border-radius: 25px;
@@ -420,6 +420,15 @@ height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 400px;
 }
+.graficos, .graficos2, .graficos3, .graficos4, .graficos5,
+.graficos6, .graficos7, .graficos8, .graficos9, .graficos10,
+.graficos11, .graficos12 {
+top: -600px;
+position: relative;
+  margin-top: 5px;;
+  left: 1450px;
+}
+
 .graficos-input {
     border: none;
     outline: none;
@@ -446,10 +455,10 @@ height: auto;
 
 .quem-somos {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center; /* Centraliza a imagem */
-    margin-top: 10px; /* Espaçamento superior para ajustar a distância abaixo dos gráficos */
-top:3600px}
+      top:2050px;
+       width: 100%;}
 
 .quem-somos img {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
@@ -462,7 +471,7 @@ position: relative;
     color: #0b0a0a;
     padding: 20px 0;
     margin-top: 50px;
-   top: 1280px;
+   top: 2000px;
    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */;
 }
 
