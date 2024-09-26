@@ -1,4 +1,4 @@
-** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -426,7 +426,7 @@ width: 100%;
 top: -600px;
 position: relative;
   margin-top: 5px;;
-  left: 1450px;
+  left: 70%;
 }
 
 .graficos-input {
