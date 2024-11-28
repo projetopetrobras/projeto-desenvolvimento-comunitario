@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrobras</title>
+    <link href="styleF.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <div class="center">
+        <div class="header-line line1"></div>
+        <div class="header-line line2"></div>
+        <div class="header-line line3"></div>
+    </div>
+    <div class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Logo Petrobras" width="190" height="120">
+            </div>
+            <ul class="menu">
+                <li><a href="#formulario.html">Formulário</a></li>
+                <li><a href="#info.html">Informações</a></li>
+                <li><a href="estatisticas.html">Estatísticas</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <form class="formulario">
+      <div class="icon">
+        <img src="loginfoto.jpg" alt="Ícone usuário">
+      </div>
+      <div class="input-group">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome">
+      </div>
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+      </div>
+      <div class="input-group">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+      </div>
+      <div class="input-group">
+        <label for="confirmar-senha">Confirmar senha:</label>
+        <input type="password" id="confirmar-senha">
+      </div>
+      <div class="input-group">
+        <label for="unidade">Unidade Petrobras:</label>
+        <select id="unidade">
+          <option value="lub">LUBNOR- Fortaleza (Ceará)</option>
+          <option value="rne">RNEST- Ipojuca (Pernambuco))</option>
+          <option value="reg">REGAP- Betim (Minas Gerais)</option>
+          <option value="rep">REPLAN-Paulínia (São Paulo)</option>
+          <option value="rev">REVAP- São José dos Campos (São Paulo)        </option>
+          <option value="rpb">RPBC- Cubatão (São Paulo)</option>
+          <option value="rec">RECAP-Mauá (São Paulo)</option>
+          <option value="red">REDUC-Duque de Caxias (Rio de Janeiro) </option>
+          <option value="repa">REPAR- Araucaria (Paraná) </option>
+          <option value="ref">REFAP- Canoas (Rio Grande do Sul)        </option>
+          <option value="faf">FAFEN-BA-Camaçari (Bahia) </option>
+          <option value="fafe">FAFEN-SE- Laranjeiras(Sergipe)</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf">
+      </div>
+      <div class="input-group">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep">
+      </div>
+      <div class="input-group">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+      </div>
+      <div class="input-group">
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua">
+      </div>
+      <div class="input-group">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone">
+      </div>
+      <div class="input-group">
+        <label for="raca">Raça:</label>
+        <select id="raca">
+          <option value="preto">Preto</option>
+          <option value="pardo">Pardo</option>
+          <option value="branco">Branco</option>
+          <option value="indigena">Indígena</option>
+          <option value="amarelo">Amarelo</option>
+        </select>
+      </div>
+      <div class="input-group" style="width: 100%;">
+        <label for="atividades-economicas">Quais são as principais atividades econômicas da sua comunidade?</label>
+        <select id="atividades-economicas">
+            <option value="agricultura-familiar">Agricultura familiar</option>
+            <option value="pesca">Pesca</option>
+            <option value="feiras-locais">Feiras locais</option>
+            <option value="comercio-local">Comércio local</option>
+            <option value="artesanato">Artesanato</option>
+        </select>
+    </div>
+
+    <div class="input-group" style="width: 100%;">
+        <label for="problemas-comunidade">Possíveis problemas que você ou sua comunidade enfrentam:</label>
+        <select id="problemas-comunidade">
+            <option value="concentracao-fuligem">Alta concentração de fuligem</option>
+            <option value="poluicao-aguas">Poluição das águas</option>
+            <option value="poluicao-auditiva">Alta poluição auditiva</option>
+            <option value="quantidade-residuos">Alta quantidade de resíduos</option>
+            <option value="chuva-acida">Chuva ácida</option>
+        </select>
+    </div>
+
+    <div class="input-group" style="width: 100%;">
+        <label for="sentimento-ouvido">Você se sente ouvido nas questões que afetam a sua comunidade?</label>
+        <textarea id="sentimento-ouvido" rows="4" placeholder="Descreva sua opinião..."></textarea>
+    </div>
+
+    <div class="input-group">
+        <label for="profissao">Profissão:</label>
+        <input type="text" id="profissao">
+    </div>
+
+    <div class="input-group">
+        <label for="num-residentes">Quantas pessoas residem na sua casa?</label>
+        <input type="number" id="num-residentes">
+    </div>
+
+    <div class="input-group">
+        <label for="renda-familiar">Renda familiar:</label>
+        <input type="text" id="renda-familiar">
+    </div>
+
+    <div class="input-group">
+        <label for="tempo-residencia">Há quanto tempo você mora na sua casa?</label>
+        <input type="text" id="tempo-residencia">
+    </div>
+
+    <div class="input-group">
+        <label for="grau-escolaridade">Grau de escolaridade:</label>
+        <select id="grau-escolaridade">
+            <option value="fundamental">Ensino Fundamental</option>
+            <option value="medio">Ensino Médio</option>
+            <option value="superior">Ensino Superior</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="estado-civil">Estado civil:</label>
+        <select id="estado-civil">
+            <option value="solteiro">Solteiro(a)</option>
+            <option value="casado">Casado(a)</option>
+            <option value="divorciado">Divorciado(a)</option>
+            <option value="viuvo">Viúvo(a)</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="saneamento">Possui acesso a saneamento básico?</label>
+        <select id="saneamento">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="internet">Acesso à internet?</label>
+        <select id="internet">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+    </div>
+
+    <div class="input-group" style="width: 100%;">
+        <label for="contribuicao-petrobras">Você acredita que a Petrobras poderia contribuir para o desenvolvimento da sua comunidade? De que forma?</label>
+        <textarea id="contribuicao-petrobras" rows="4" placeholder="Descreva sua opinião..."></textarea>
+    </div>
+
+    <div class="input-group" style="width: 100%;">
+        <label for="refinaria-impacto">Como ter uma refinaria perto de sua casa afeta na sua vida?</label>
+        <textarea id="refinaria-impacto" rows="4" placeholder="Descreva sua opinião..."></textarea>
+    </div>
+
+    <div class="input-group" style="width: 100%;">
+        <label for="informacoes-adicionais">Adicione mais informações (opcional):</label>
+        <textarea id="informacoes-adicionais" rows="4" placeholder="Descreva aqui..."></textarea>
+    </div>
+    </form>
+  </main>
+</body>
+</html>
